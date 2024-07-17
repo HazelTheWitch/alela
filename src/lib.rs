@@ -1,3 +1,6 @@
+pub mod set;
+pub mod color;
+
 use chrono::NaiveDate;
 use semver::Version;
 use serde::{Deserialize, Serialize};
